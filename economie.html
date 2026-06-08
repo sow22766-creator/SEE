@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Économie - SENEGO</title>
+
+<style>
+
+/* ================= RESET ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+    background: #198754;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 26px;
+}
+
+.header p {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* ================= MAIN ================= */
+
+.main-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* TITLE */
+
+.page-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.page-title h2 {
+    color: #198754;
+}
+
+/* ================= CARDS ================= */
+
+.news-card {
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.news-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 15px;
+}
+
+.news-content h3 {
+    margin-bottom: 10px;
+}
+
+.news-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* TAG */
+
+.tag {
+    display: inline-block;
+    background: #198754;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .navbar a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .news-card img {
+        height: 180px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+
+    <h1>SENEGO</h1>
+    <p>Section Économie</p>
+
+    <nav class="navbar">
+
+        <a href="index.html">Accueil</a>
+        <a href="politique.html">Politique</a>
+        <a href="sport.html">Sport</a>
+        <a href="economie.html">Économie</a>
+
+    </nav>
+
+</header>
+
+<!-- MAIN -->
+
+<main class="main-container">
+
+    <div class="page-title">
+        <h2>💰 Actualités Économie Sénégal</h2>
+    </div>
+
+    <!-- ARTICLE 1 -->
+
+    <article class="news-card">
+
+        <img src="https://africainside.net/medias/Grande-Logo2025-02-20-12-45-05638591689.webp"
+            alt="business Sénégal">
+
+        <div class="news-content">
+
+            <span class="tag">Investissement</span>
+
+            <h3>Le Sénégal attire de nouveaux investisseurs</h3>
+
+            <p>
+                Plusieurs entreprises internationales s’intéressent au marché sénégalais en pleine croissance.
+            </p>
+
+        </div>
+
+    </article>
+
+    <!-- ARTICLE 2 -->
+
+    <article class="news-card">
+
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=60"
+            alt="startup Sénégal">
+
+        <div class="news-content">
+
+            <span class="tag">Startups</span>
+
+            <h3>Les startups sénégalaises en pleine expansion</h3>
+
+            <p>
+                Le secteur numérique connaît une forte croissance grâce aux jeunes entrepreneurs.
+            </p>
+
+        </div>
+
+    </article>
+
+    <!-- ARTICLE 3 -->
+
+    <article class="news-card">
+
+        <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=60"
+            alt="marché Dakar">
+
+        <div class="news-content">
+
+            <span class="tag">Marché</span>
+
+            <h3>Hausse de l’activité économique à Dakar</h3>
+
+            <p>
+                Le marché local montre des signes positifs de reprise économique.
+            </p>
+
+        </div>
+
+    </article>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <p>© 2026 SENEGO - Tous droits réservés</p>
+
+</footer>
+
+</body>
+
+</html>

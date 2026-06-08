@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Journal TV Sénégal - SENEGO</title>
+
+<style>
+
+/* ================= RESET ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    color: #1f2937;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background: #b30000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 13px;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+/* NAV */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ================= CONTAINER ================= */
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* TITLE */
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.title h2 {
+    color: #b30000;
+}
+
+/* ================= VIDEO GRID ================= */
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.video-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 210px;
+    border: none;
+}
+
+.video-content {
+    padding: 15px;
+}
+
+.tag {
+    display: inline-block;
+    background: #b30000;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.video-content h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.video-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+    <h1>SENEGO TV</h1>
+    <p>Journal TV Sénégal & Actualités en vidéo</p>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="politique.html">Politique</a>
+        <a href="sport.html">Sport</a>
+        <a href="economie.html">Économie</a>
+        <a href="people.html">People</a>
+        <a href="tv.html">TV</a>
+    </nav>
+
+</header>
+
+<!-- MAIN -->
+
+<div class="container">
+
+    <div class="title">
+        <h2>📺 Journal TV Sénégal - Vidéos YouTube</h2>
+    </div>
+
+    <div class="video-grid">
+
+        <!-- VIDEO 1 (RTS Sénégal style) -->
+
+        <div class="video-card">
+
+            <iframe src="< width="560" height="315" src="https://www.youtube.com/embed/J-Syg5RplQM?si=RF4kH_ZokZe5IIm2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+            <div class="video-content">
+
+                <span class="tag">Journal</span>
+
+                <h3>Journal TV - Édition du soir</h3>
+
+                <p>
+                    Résumé complet des actualités du Sénégal et de l’Afrique.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- VIDEO 2 -->
+
+        <div class="video-card">
+
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
+
+            <div class="video-content">
+
+                <span class="tag">Actualités</span>
+
+                <h3>Dernières infos du Sénégal</h3>
+
+                <p>
+                    Politique, économie et faits divers du jour.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- VIDEO 3 -->
+
+        <div class="video-card">
+
+            <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" allowfullscreen></iframe>
+
+            <div class="video-content">
+
+                <span class="tag">Débat</span>
+
+                <h3>Analyse politique en direct</h3>
+
+                <p>
+                    Décryptage des grandes décisions politiques au Sénégal.
+                </p>
+
+            </div>
+
+        </div>
+
+                <span class="tag">Sport</span>
+
+                <h3>Résumé des matchs du Sénégal</h3>
+
+                <p>
+                    Highlights des Lions de la Teranga et compétitions africaines.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>© 2026 SENEGO TV - Tous droits réservés</p>
+
+</footer>
+
+</body>
+
+</html>
